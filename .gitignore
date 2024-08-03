@@ -1,0 +1,24 @@
+# Ignore model checkpoints
+*.pt
+checkpoint.pt
+
+# Ignore TensorBoard logs
+runs/
+
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE-related files
+.vscode/
+.idea/
+
+# OS-related files
+.DS_Store
+Thumbs.db
